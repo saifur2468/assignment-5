@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <!-- navbar -->
+    <nav>
+        <button class="btn" onclick="window.location.href = 'index.html'">Home</button>
+        
+            <div class="nav-first"  >
+                <img src="images/logo.png" >
+                <h1>Donate Bangladesh</h1>
+            </div>  
+            <div class="nav-sen" > 
+                <img src="images/coin.png">
+                <h1 id="totalAmount">5500</h1>
+            </div>
+
+        
+        <span class="lg:hidden"><i class="fa-solid fa-bars"></i></span>
+    </nav>
+
+    <!-- history section -->
+
+    <div id = "trangistion"class="lg:w-550px h-450px border-2 border-indigo-600">
+        <h2 id="historyModel" class=" lg:text-center font-bold my-5">Donation History </h2>
+        <ul id="historyList"></ul>
+       
+    </div>
+
+
+  <script src="dom.js"></script>  
+</body>
+</html>

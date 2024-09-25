@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+
+    <!-- navbar -->
+
+    <nav>
+        <button class="btn" onclick="window.location.href = 'blogs.html'" >Blog</button>
+        
+            <div class="nav-first"  >
+                <img src="images/logo.png" >
+                <h1>Donate Bangladesh</h1>
+            </div>  
+            <div class="nav-sen" > 
+                <img src="images/coin.png">
+                <h1 id="totalamount">5500</h1>
+            </div>
+
+        
+        <span class="lg:hidden"><i class="fa-solid fa-bars"></i></span>
+    </nav>
+
+<br>
+<div class="part2">
+    <button id="btnone" class="btn-1"  onclick="window.location.href = 'donation.html'">Donation</button>
+    
+<button id="AddmoneyHistory" class="btn-2" onclick="window.location.href = 'history.html'">History</button>
+</div>
+
+
+
+
+    <section >
+        <!-- donation part first -->
+        <div class="donation"  >
+        <div class="image-con">
+            <img src="images/noakhali.png" alt="" >
+        </div>
+        <div class=" text">
+            <img src="images/coin.png">
+            <h1 id="donationAmountDisplay1">0 BDT</h1>
+        </div>
+        <br>
+        <div class="donation-text" >
+            <h1>Donate for Flood at Noakhali, Bangladesh</h1>
+            <p> The recent floods in Noakhali have caused significant damage to homes  infrastructure. Your donation will help provide essential supplies and  to those affected by this disaster. Every contribution, big or small, makes  difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.</p>
+            <br>
+            <input id="donationAmount1" type="text" name="" id="" placeholder="Write Donation Amount" class="amount-box">
+            <br>
+            <button class="dontaion-switch" onclick="donate(1)">Donate Now</button>
+
+
+        </div>
+    </div>
+
+<br>
+
+        <!-- donation part 2  -->
+        <div class="donation"  >
+            <div class="image-con">
+                <img src="images/feni.png" alt="" >
+            </div>
+            <div class=" text">
+                <img src="images/coin.png">
+                <h1 id="donationAmountDisplay2">0 BDT</h1>
+            </div>
+            <br>
+            <div class="donation-text">
+                <h1>Donate for Flood Relief in Feni,Bangladesh</h1>
+                <p> The recent floods in Noakhali have caused significant damage to homes  infrastructure. Your donation will help provide essential supplies and  to those affected by this disaster. Every contribution, big or small, makes  difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.</p>
+                <br>
+                <input id="donationAmount2" type="text" name="" id="" placeholder="Write Donation Amount" class="amount-box">
+                <br>
+                <button class="dontaion-switch" onclick="donate(2)">Donate Now</button>
+    
+    
+            </div>
+        </div>
+
+        <!-- donation part three -->
+    
+        <div class="donation"  >
+            <div class="image-con">
+                <img src="images/quota-protest.png"  >
+            </div>
+            <div class=" text">
+                <img src="images/coin.png">
+                <h1 id="donationAmountDisplay3">0 BDT</h1>
+            </div>
+            <br>
+            <div class="donation-text">
+                <h1>Aid for Injured in the Quota Movement</h1>
+                <p> The recent floods in Noakhali have caused significant damage to homes  infrastructure. Your donation will help provide essential supplies and  to those affected by this disaster. Every contribution, big or small, makes  difference. Please join us in supporting the relief efforts and making a positive impact on the lives of those in need.</p>
+                <br>
+                <input id="donationAmount3" type="text" name="" id="" placeholder="Write Donation Amount" class="amount-box">
+                <br>
+                <button class="dontaion-switch" onclick="donate(3)">Donate Now</button>
+    
+    
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+    <script src="dom.js"></script>
+</body>
+</html>
